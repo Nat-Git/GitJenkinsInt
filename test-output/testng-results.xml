@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[User logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[Service added successfully for My AMI Pop]]>
+    </line>
+    <line>
+      <![CDATA[User login is done successfully]]>
+    </line>
+    <line>
+      <![CDATA[Basket contains correct Car Model]]>
+    </line>
+    <line>
+      <![CDATA[Payment done successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="166543" started-at="2020-10-20T15:20:53 IST" finished-at="2020-10-20T15:23:40 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="166543" started-at="2020-10-20T15:20:53 IST" finished-at="2020-10-20T15:23:40 IST">
+      <class name="retailPSA.RetailMaven.RetailMainTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14]" name="setUp" is-config="true" duration-ms="9671" started-at="2020-10-20T15:20:53 IST" finished-at="2020-10-20T15:21:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="launchHomePage()[pri:1, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14]" name="launchHomePage" duration-ms="7395" started-at="2020-10-20T15:21:03 IST" description="Test Case : Verify login functionality" finished-at="2020-10-20T15:21:10 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchHomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-20T15:21:12 IST" finished-at="2020-10-20T15:21:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchHomePage status=SUCCESS method=RetailMainTest.launchHomePage()[pri:1, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14] output=User logged in successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="addAMIPop2YearService()[pri:2, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14]" name="addAMIPop2YearService" duration-ms="29241" started-at="2020-10-20T15:21:12 IST" description="Test Case : Add AMI Pop 2 year service" finished-at="2020-10-20T15:21:41 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Service added successfully for My AMI Pop]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addAMIPop2YearService -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-20T15:21:41 IST" finished-at="2020-10-20T15:21:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAMIPop2YearService status=SUCCESS method=RetailMainTest.addAMIPop2YearService()[pri:2, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14] output=Service added successfully for My AMI Pop]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="userAccountCreation()[pri:3, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14]" name="userAccountCreation" duration-ms="12755" started-at="2020-10-20T15:21:41 IST" description="Test Case : Create account" finished-at="2020-10-20T15:21:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User login is done successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userAccountCreation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-20T15:21:54 IST" finished-at="2020-10-20T15:21:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userAccountCreation status=SUCCESS method=RetailMainTest.userAccountCreation()[pri:3, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14] output=User login is done successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="cartVerification()[pri:4, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14]" name="cartVerification" duration-ms="31350" started-at="2020-10-20T15:21:54 IST" description="Test Case: Verify items in basket" finished-at="2020-10-20T15:22:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Basket contains correct Car Model]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cartVerification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-20T15:22:26 IST" finished-at="2020-10-20T15:22:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartVerification status=SUCCESS method=RetailMainTest.cartVerification()[pri:4, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14] output=Basket contains correct Car Model]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="paymentProcess()[pri:5, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14]" name="paymentProcess" duration-ms="71141" started-at="2020-10-20T15:22:26 IST" description="Test Case: Payment process" finished-at="2020-10-20T15:23:37 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Payment done successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- paymentProcess -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-20T15:23:37 IST" finished-at="2020-10-20T15:23:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=paymentProcess status=SUCCESS method=RetailMainTest.paymentProcess()[pri:5, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14] output=Payment done successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:6, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14]" name="closeBrowser" duration-ms="2424" started-at="2020-10-20T15:23:37 IST" description="Test Case: Closing browser" finished-at="2020-10-20T15:23:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-20T15:23:40 IST" finished-at="2020-10-20T15:23:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=closeBrowser status=SUCCESS method=RetailMainTest.closeBrowser()[pri:6, instance:retailPSA.RetailMaven.RetailMainTest@305b7c14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- retailPSA.RetailMaven.RetailMainTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
